@@ -3,7 +3,6 @@
   padding: 0;
 }
 
-
 body {
   background-color: white;
 }
@@ -38,13 +37,13 @@ nav a:hover {
   transition-duration: 100ms;
 }
 
-nav a.active {
+/* nav a.active {
   color: white;
   background-color: white;
   border: 20px solid white;
   border-radius: 20px;
   padding: 3px 5px;
-}
+} */
 li {
 
   display: inline;
