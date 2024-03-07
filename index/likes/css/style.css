@@ -1,0 +1,432 @@
+h4 {
+  font-family: 'Jost', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  text-size-adjust: auto;
+  font-weight: 900;
+}
+
+.music-img {
+  width: 14%;
+  border-radius: 100%;
+  padding: 10px;
+  margin: 1%;
+}
+
+.spotify-section {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+.spotify-section2 {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+
+.spotify-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: auto;
+  padding: 5px;
+  border-radius: 25px;
+}
+
+.spotify-gallery2{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: auto;
+  padding: 5px;
+  border-radius: 25px;
+}
+
+.text-cell{
+  justify-content: left;
+  margin-right: 5%;
+  padding-top: 2%;
+}
+
+.giflogo{
+  width: 5px;
+  size: 5px;
+
+}
+.giff{
+  width: 200px;
+}
+.text-cell2{
+  justify-content: right;
+  margin-right: 5%;
+  padding-top: 2%;
+}
+
+.spotify-p {
+  padding-bottom: 5%;
+  margin-top: 20px;
+  margin-bottom: 35px;
+  text-align: justify;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.spotify-p2 {
+  padding-bottom: 5%;
+  margin-top: 20px;
+  margin-bottom: 35px;
+  text-align: justify;
+}
+
+.spotify-list {
+  font-family: 'Jost', sans-serif;
+  text-align: left;
+}
+
+
+.spotify-artis{
+  object-fit: contain;
+  width: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  
+} 
+
+/* 
+.view-profile {
+  text-decoration: none;
+}
+
+.section-title {
+  font-family: 'Gruppo', sans-serif;
+  font-size: 25px;
+  text-transform: uppercase;
+  color:black;
+  width: fit-content;
+  padding: 5px;
+} */
+
+video{
+  width: 800px;
+}
+
+/* h5 {
+  font-family: 'Jost', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 900;
+  font-size: 14px;
+  color: #132fba;
+  background-color: #ffff;
+  border: 3px solid #132fba;
+  padding: 4px;
+}
+
+h5:hover {
+  color: #ffff;
+  background-color: #132fba;
+  border: 3px solid #132fba;
+  transition-duration: 400ms;
+}
+
+.tv-gallery {
+  /* display: flex;
+ flex-wrap: wrap; */
+  /* display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+
+.tv-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  flex-basis: 27%;
+  font-size: fit;
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.tv-h4 {
+  font-family: 'Gruppo', sans-serif;
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #132fba;
+  width: fit-content;
+  border: 2.25px solid #132fba;
+  border-radius: 8px;
+  padding: 5px;
+  margin: auto;
+  text-align: right;
+} */
+
+/* .tv-img {
+  height: 475px;
+  border-radius: 20px;
+} */ 
+
+img{
+
+  width: 300px;
+}
+
+/* .tv-img:hover {
+  height: 515px;
+  transition-duration: 500ms;
+  transition-timing-function: ease-in-out;
+}
+
+.tv-p {
+  text-align: justify;
+} */
+
+
+img{
+  width: 800px;
+}
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #ffff;
+}
+
+main {
+  margin: 0% 10%;
+}
+
+footer {
+  margin: auto;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+footer img {
+  width: 2%;
+  padding: 7px;
+}
+
+footer h6 {
+  font-family: 'Gruppo', sans-serif;
+  font-size: 12px;
+  padding: 7px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  background-color: white;
+}
+
+nav {
+  padding: 25px;
+  margin: auto;
+  margin-left: -40px;
+  width: 100%;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  background-color: black;
+  z-index: 12;
+}
+
+
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 15px;
+  font-family: 'Gruppo', sans-serif;
+  font-weight: bolder;
+  font-size: 22px;
+}
+
+nav a:hover {
+  border: 1.5px solid white;
+  border-radius: 20px;
+  padding: px;
+  transition-duration: 100ms;
+}
+
+/* nav a.active {
+  color: white;
+  background-color: white;
+  border: 20px solid white;
+  border-radius: 20px;
+  padding: 3px 5px;
+} */
+li {
+
+  display: inline;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-variant: small-caps;
+}
+
+h3 {
+  text-align: left;
+  font-family: 'Handjet', sans-serif;
+  font-size: 65px;
+  color: #132fba;
+  padding-top: 60px;
+  padding-bottom: 55px;
+  letter-spacing: 2px;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+
+.cell{
+  width: 50%;
+  margin: auto;
+  padding-top: 2%;
+}
+
+#gif {
+  width: 80%;
+  margin: auto;
+  justify-content: right;
+}
+
+header img {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 35px;
+  margin-bottom: 15px;
+  max-width: 95px;
+}
+
+h2 {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Handjet', sans-serif;
+  text-align: right;
+  font-size: 95px;
+  width: auto;
+  color: #132fba;
+  margin-top: 10%;
+}
+
+#splash-text {
+  margin-right: 5%;
+  padding-left: -5%;
+  display: inline;
+}
+
+p {
+  font-family: 'Jost', sans-serif;
+  font-size: 16px;
+  color: #020c3d;
+}
+
+.bio-p {
+  margin: 10% 15% 15% 0%;
+}
+
+li {
+  display: inline;
+}
+
+.description-p {
+  padding-bottom: 5%;
+  margin-top: 25px;
+  margin-bottom: 35px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+footer {
+  padding-top: 20px;
+  margin: auto;
+  text-align: center;
+  background-color: black;
+  width: 100%;
+}
+
+footer img {
+  width: 2%;
+  padding: 7px;
+}
+
+footer h6 {
+  font-family: 'Gruppo', sans-serif;
+  font-size: 12px;
+  padding: 7px;
+}
+
+
+
+/* *{
+  padding: 0;
+  border: 0;
+}
+
+video{
+  padding-left: 900px;
+  width: 800px;
+
+
+}
+
+.spotify-p {
+  padding-bottom: 5%;
+  margin-top: 25px;
+  margin-bottom: 35px;
+  text-align: justify;
+}
+
+.spotify-section {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+
+.spotify-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: auto;
+  padding: 5px;
+  border-radius: 25px;
+}
+
+text-cell{
+  justify-content: left;
+  margin-right: 5%;
+  padding-top: 2%;
+}
+
+nav {
+	padding: 25px;
+	margin: auto;
+  margin-left: -40px;
+  width: 100%;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  background-color: #ffff;
+  z-index: 12;
+}
+
+main {
+  margin: 0% 10%;
+}
+
+footer {
+  margin: auto;
+  text-align: center;
+  padding: 20px 0px;
+} */

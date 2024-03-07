@@ -1,0 +1,19 @@
+video {
+  min-width: 100%; 
+  min-height: 100%; 
+
+  width: auto;
+  height: auto;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+a.button-wrapper{
+  position: absolute;
+  top:50px;
+  right:600px;
+  z-index: 999;
+  }
